@@ -2,12 +2,15 @@
 // Copyright (c) Vatsal Manot
 //
 
-import Data
+#if !os(macOS)
+
+import FoundationX
 import HealthKit
+import Runtime
 import Swallow
 import SwiftDB
 
-public struct Nutrition: Codable , DataModel {
+public struct Nutrition: Codable, Model {
     public typealias PreviousVersion = Never
     public typealias NextVersion = Never
     
@@ -96,3 +99,5 @@ public struct Nutrition: Codable , DataModel {
         
     }
 }
+
+#endif

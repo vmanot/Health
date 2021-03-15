@@ -16,83 +16,83 @@ public struct Nutrition: Codable, Model {
     
     public static let version: Version? = "0.0.0"
     
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryFatTotal: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryFatPolyunsaturated: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryFatMonounsaturated: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryFatSaturated: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryCholesterol: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietarySodium: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryCarbohydrates: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryFiber: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietarySugar: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryEnergyConsumed: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryProtein: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryVitaminA: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryVitaminB6: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryVitaminB12: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryVitaminC: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryVitaminD: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryVitaminE: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryVitaminK: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryCalcium: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryIron: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryThiamin: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryRiboflavin: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryNiacin: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryFolate: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryBiotin: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryPantothenicAcid: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryPhosphorus: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryIodine: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryMagnesium: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryZinc: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietarySelenium: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryCopper: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryManganese: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryChromium: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryMolybdenum: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryChloride: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryPotassium: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryCaffeine: HKQuantity?
-    @NSKeyedArchivedOptional
+    @NSKeyedArchived
     public var dietaryWater: HKQuantity?
     
     public init() {
